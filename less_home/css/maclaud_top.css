@@ -1,0 +1,124 @@
+.clear{
+clear: both; 
+}
+.wrap{max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+overflow: hidden;}
+.head_top{
+    background: chocolate;
+}
+.tops{
+    float: right;
+}
+.tops li{
+    display: inline-block;
+    float: right;
+}
+.tops li :hover{color:black;
+background:none;}
+.tops a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 9px;
+}
+.mn_1{
+    background: #001de975;
+}
+.mn_2{
+	background: #7ae900;	
+}
+.mn_3{
+	background: #e90000;	
+}
+.mn_4{	
+	background: #9596af;	
+}
+.mn_5{	
+	background: #87d39b;	
+}
+.mn_6{	
+	background: #8f1891;	
+}
+.mn_7{	
+	background: #b3a7ae;	
+}
+.mn_8{	
+	background: #108dc9;	
+}
+.mn_9{	
+	background: #a0a58a;	
+}
+.tope_pig{
+    height: 101px;
+    background-image:url(../images/0.png);
+}
+.head_bottom{
+    background: chocolate;
+}
+.mn2{
+    display: inline-block;
+}
+.mn2 li{
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    margin: 0px -5px 0px 0px;
+}
+.mn2 li:hover{background:yellow;}
+.mn2 li:hover a{color:red;
+}
+.mn2 li:last-child a{ border-right: none;}
+.mn2 a{
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    padding: 12px 8px;
+    border-right: 1px solid;
+    margin: -1px;
+}
+.mn{
+    float: right;
+    display: inline-block;
+}
+.mn3{
+    display: inline-block;
+}
+.mn3 li{
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    margin: 0px -5px 0px 0px;
+}
+.mn3 a{
+    display: block;
+    color: aliceblue;
+    border-right: 1px solid;
+    text-decoration: none;
+    padding: 12px 8px;
+    margin: -1px;
+}
+.mn3 li:last-child a{ border-right: none;}
+.mn3 li:hover{background:yellow;}
+.mn3 li:hover a{color:red;}
+.setsing{display: inline;
+margin: 10px;
+}
+.search{
+    border-radius: 10px;
+    margin: -2px;
+    position: relative;
+    z-index: 5;
+    height: 16px;
+    border-color: chocolate;
+    border-right-width: 4px;
+}
+.lost{
+    padding: 2px 16px;
+    border-radius: 10px;
+    border-color: #ff6d00;
+    border-right-width: 4px;
+}
+.lost:hover{background:yellow;}
+.st{
+    margin: -17px;
+    position: relative;
+}

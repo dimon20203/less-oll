@@ -1,0 +1,40 @@
+body {
+	margin:0px;
+	background:#f0f0f0;
+}
+.clear{
+	clear:both;
+}
+.wrapAll {
+	background:#ccc;
+	width:1000px;
+	margin:0px auto;
+}
+
+.header {
+	background:#999;
+	height:80px;
+}
+
+.contentWrap {
+	background:#ddd;
+	overflow:hidden;
+}
+	.leftCont{
+		width:180px;
+		float:left;
+		padding-left:20px;
+		padding-top:15px;
+		line-height:1.7;
+	}
+	.rightCont{
+		width:760px;
+		float:right;
+		padding:15px;
+		text-align:justify;
+	}
+
+.footer {
+	background:#999;
+	height:90px;
+}

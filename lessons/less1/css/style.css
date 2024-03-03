@@ -1,0 +1,49 @@
+.head_top {
+	color:red;
+}
+
+ .head_top:hover {
+	color:green;
+}
+
+div {
+border:1px solid #ddd;
+}	
+ 
+
+ 
+ .cont_left {
+    float: left;
+	width:80px;
+}
+
+.cont_right {
+    float: right;
+	width:80px;
+}
+
+.bok {
+	background: #e87878;
+	text-align: center;
+	border:4px solid #555;
+	margin: 5px;
+	border-radius:8px;
+}
+
+.cont_center {
+    text-align: center;
+    margin: 5px 100px;
+    background: #888;
+	overflow: hidden;
+	border:4px solid #555;
+	border-radius:8px;
+}
+
+.content {}
+ 
+ 
+ 
+ 
+ 
+
+   

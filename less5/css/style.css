@@ -1,0 +1,80 @@
+.red {
+	border: 1px solid red;
+    max-height: 150px;
+    overflow: hidden;
+}
+.red:hover {
+	overflow:auto;
+}
+
+.fff {
+	color: red;
+	font-size:40px;
+	text-shadow: 2px 2px 1px #000;
+}
+.button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  position: relative;
+ 
+}
+.box {
+  display: none;
+  width: 300px;
+  height: 300px;
+  background-color: #d7f7ff;
+  border: 1px solid #ccc;
+   
+}
+
+.button:hover .box {
+  display:block;
+  position:absolute;  
+  z-index:2;
+  top: 20px;
+  left: 20px;
+}
+
+
+.iks {
+  display: inline-block;
+  font-size:18px;
+  font-weight: bold;
+  transition: transform .8s ease-in-out;
+}
+
+.but{display: block;
+position: relative;
+border: 1px solid red;
+    max-height: 150px;
+
+}
+.ik{display:block;}
+.bo{display: none;
+  width: 300px;
+  height: 300px;
+  background-color: #d7f7ff;
+  border: 1px solid #ccc;}
+  .but:hover .bo {
+display:block;
+  
+}
+.iki
+	  {display: block;
+position: relative;
+border: 1px solid red;
+    max-height: 150px;
+
+}
+.bor {
+	display: none;
+  width: 300px;
+  height: 300px;
+  background-color: #d7f7ff;
+  border: 1px solid #ccc;}
+.iki:hover .bor {
+display:block;}
+.kiki{display:block;}

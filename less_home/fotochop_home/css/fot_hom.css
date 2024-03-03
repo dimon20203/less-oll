@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "Century Gothic";
+src: url(fonts/GOTHIC.TTF);}
+
+.clear{
+clear: both; 
+}
+.wrapper{
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+.head_top{
+    background: #eee6dd;
+    padding: 3px;
+}
+.tel,.adres {
+  font-family: "CenturyGothicRegular";
+  font-size: 12px;
+  padding-left: 13px;
+}
+.buy{
+    float: right;
+}
+
+.arrow-icon {
+  float: right;
+}
+.bu{margin-right: 12px;}
+.head_center{
+    margin-top: 36px;
+    text-align: center;
+}
+.name{font-size: 22px;color: #510111;font-family: "Gabriola";display: inline;}
+.name_1{font-size: 33px;color: #510111;font-family: "Dali";display: inline;}
+.menu{
+    text-align: center;
+}
+.menu li{
+    display: inline;
+}
+.menu a{text-decoration: none;padding: 12px;font-size: 15px;line-height: 49px;color: #442a29;font-family: "Century Gothic";}
+.menu a:hover{color:red;}
+/* .........................................head..........................................................*/
+/* .........................................pages 1..........................................................*/
+.bok_1{
+    display: inline-flex;
+    border-top: 1px solid;
+}
+.bok_2{
+ text-align: center;
+ font-size: 24px;
+ margin-bottom: 24px;
+}
+.bok_2 span {
+    position: relative;
+    top: 22px;
+    background-color: #ffffff;
+    padding: 0 15px;
+}
+.bok_2 hr {
+	border-color: #000;
+    border-width: 1px;
+}
+/*.bok_2:before, .bok_2:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+}
+.bok_2:after {
+  margin: 0 -55% 0 .5em;
+  margin-top: 10px;
+}*/
+.first__title{font-size: 11px;color: #442a29;font-family: "Century Gothic";text-align: center;margin: 4px;}
+.first__text{font-size: 15px;color: #442a29;font-style: italic;font-family: "Times New Roman";text-align: center;}
+.blok_3{
+    margin-top: 19px;
+}
+.first{
+    display: inline-block;
+    margin: 3px;
+}
+.bok_2{}
+.blok_right{
+    float: right;
+}
+.blok_left{
+    display: inline-block;
+    margin-top: 100px;
+}
+.text-1-1 {
+  font-size: 72px;
+  color: #442a29;
+font-style: italic;
+}
+
+.text-1-4 {
+  font-size: 24px;
+  color: #442a29;
+font-style: italic;
+}
+
+.text-1-3 {
+  font-size: 12px;
+  color: #442a29;
+font-style: italic;
+}
+
+.text-1-2 {
+  font-size: 18px;
+  color: #442a29;
+font-style: italic;
+}
+
+.text-1-3-1 {
+  padding-left: 45px;
+}
+
+.text-1-3-2 {
+  padding-left: 225px;
+}
+
+.text-1-3-3 {
+  padding-left: 450px;
+}
+/* .........................................footer..........................................................*/
+.down{
+    height: 40px;
+    background: #f0e6dd;
+    border-top: 3px solid;
+    margin-top: 13px;
+}
+.foot-info{font-size: 13px;color: #442a29;font-family: "Century Gothic";text-align: center;}
+.m{
+    float: right;
+}
+/* .........................................pages 2..........................................................*/
+.b_1{background-image:url(../images/30.png);
+font-size: 18px;
+line-height: 111px;color: #442a29;
+font-family: "Century Gothic";
+text-align: center;
+display: inline-block;
+float: left;height: 165px;
+width: 312px;
+margin-right: 14px;	
+}
+.left{
+    float: left;
+}
+.right{margin-left: 312px;}
+.category-wrap {
+  padding: 15px;
+  background: white;
+  width: 279px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+}
+.category-wrap h3 {
+  font-size: 16px;
+  color: rgba(0,0,0,.6);
+  margin: 0 0 10px;
+  padding: 0 5px;
+  position: relative;
+}
+.category-wrap h3:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #80C8A0;
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+  box-shadow: -8px -8px #80C8A0, 0 -8px #80C8A0, -8px 0 #80C8A0;
+}
+.category-wrap ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  border-top: 1px solid rgba(0,0,0,.3);
+}
+.category-wrap li {margin: 12px 0 0 0px;border-bottom: 1px solid darkgrey;}
+.category-wrap a {
+  text-decoration: none;
+  display: block;  
+  font-size: 13px;
+  color: rgba(0,0,0,.6);
+  padding: 5px;
+  position: relative;
+  transition: .3s linear;
+}
+
+.category-wrap a:hover{
+  background: #80C8A0;
+  color: white;
+}
+.left_pig{
+    float: right;
+}
+.sub-menu2{
+	display:none;
+}
+.sub-menu2 a{
+    color: darkslateblue;
+}
+.category-wrap li:hover .sub-menu2{display:block;padding: 20px;}
+.right_child{font-size: 11px;color: #442a29;font-family: "Century Gothic";padding: 5px 16px;}
+.addres {font-size: 11px;color: #442a29;font-style: italic;font-family: "Times New Roman";float: right;}
+.right_child_2{
+    padding: 6px;
+    display: inline-block;
+}
+.dol{font-size: 11px;
+color: #442a29;
+font-family: "Century Gothic";
+}
+.price{font-size: 13px;line-height: 50px;color: #442a29;font-style: italic;font-family: "Times New Roman";border-bottom: 1px solid;}
+.cost{margin-left: 17px;}
+/* .........................................pages 3..........................................................*/
+.bloks{
+    display: flex;
+}
+.one{display: flex;flex-direction: column;flex-wrap: nowrap;justify-content: space-around;margin-top: 244px;}
+.two{
+    display: inline;
+    margin-left: 93px;
+    margin-top: 117px;
+}
+.three{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 157px;
+}
+.go{font-family: "Times New Roman";
+  font-size: 14px;
+  color: #442a29;
+  font-style: italic;}
+.log{
+    padding: 16px;
+    width: 153px;
+    background: #eee5db;
+    margin: 10px;
+}
+.log:hover {color: #050ce3;background: darkgray;transition: 1s;box-shadow: 12px 9px 14px darkgrey;}
+.set{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+}
+.three_2{
+    text-align: left;
+}
+.go_2{
+  font-family: "Times New Roman";
+  font-size: 14px;
+  color: #442a29;
+  font-style: italic;
+  border-bottom: 1px solid;
+  padding: 17px;
+  }
+.go_3{
+	font-family: "Times New Roman";
+  font-size: 14px;
+  color: #442a29;
+  font-style: italic;
+    margin-left: 17px;
+}
+.go_4{
+    margin-top: 200px;
+}
+.end{
+    margin-bottom: 83px;
+    margin-right: 24px;
+}
+.endi{
+    padding: 7px;
+}

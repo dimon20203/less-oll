@@ -1,0 +1,72 @@
+body {
+	margin: 0px;
+}
+.clear {
+	clear:both;
+}
+.red {
+	display: block;
+	
+	color: green;
+	width:200px;
+	height: 200px;
+	border: 1px solid red;
+	background-image: url(../images/qqq.jpg);
+	margin:20px 0px;
+	border-radius: 20%;
+	
+}
+
+.blue {
+		width:200px;
+	height:100px;
+	border: 1px solid blue;
+	background: blue;
+	position: absolute;
+	z-index: 500;
+}
+.blue_small {
+	width:20px;
+	height:40px;
+	border: 1px solid green;
+	background: red;
+	position: absolute;
+	right: 5px;
+    bottom: 5px;
+}
+.blue_small1 {
+	width:20px;
+	height:40px;
+	border: 1px solid green;
+	background: #000;
+	position: absolute;
+	    left: 5px;
+    top: 5px;
+}
+
+.green {
+		width:250px;
+		height:150px;
+		border: 1px solid green;
+		background: green;
+		position: relative;
+		z-index: 100;
+		display: inline-block;
+		text-align: left;
+		color:  #fff;
+		border-radius: 20px;
+		font-size: 30px;
+		text-shadow: 1px 3px 4px #000, 0px 0px 0px #000;
+		box-shadow: -4px -4px 8px #000;
+		transition: .2s;
+		padding: 10px;
+}
+.green:hover {
+	box-shadow: 4px 4px 8px #000;
+	transition: .7s;
+}
+.cntr {
+	text-align:center;
+}
+
+}

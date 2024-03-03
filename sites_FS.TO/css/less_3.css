@@ -1,0 +1,42 @@
+.wrap {
+	border:1px solid red;
+/*	width:1000px;*/
+	margin:0px auto;
+	padding:10px;
+}
+.e1{
+  border: 3px solid #000;
+  float: left;
+  padding: 10px;
+  background-color: #ccc;
+  height: 300px;
+}
+.e2{
+border:green 3px solid;
+}
+div {
+color:#333;
+}
+.clear {
+	clear:both;
+}
+.child {
+	padding:5px;
+	border-bottom:1px solid red;
+	width:200px;
+}
+/*
+.child:last-child{
+	border:none;
+}
+.child:nth-child(n+3) {
+	color:red;
+}
+*/
+.parent > div {
+	color:green;
+}
+
+.sp {
+		color:blue;
+	}

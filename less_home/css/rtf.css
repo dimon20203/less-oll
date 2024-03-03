@@ -1,0 +1,206 @@
+
+.body {
+  font-family: sans-serif;
+  line-height: 1.45;
+  font-size: 18px;
+  padding: 16px 16px 0 16px;
+  text-align: center;
+  
+}
+.newnew {
+	    display: block;
+}
+.h4 {
+  color: #4f4f4f;
+  font-weight: 400;
+}
+.demo {
+  /*display: flex;*/
+  align-items: center;
+  justify-content: space-between;
+}
+.blocck {
+  background: #000;
+  width: 150px;
+  height: 150px;
+  border: 8px solid #4f4f4f;
+  font-family: monospace;
+  line-height: 150px;
+  font-size: .8em;
+  color: #fff;
+  display: inline-block;
+}
+.hex { 
+    background: #32321A; }
+.image {
+	background: url(https://lorempixel.com/150/150/); }
+.gradient { 
+    background: linear-gradient(#4DAB6B, #FFC50F); 
+	}
+
+ }
+.container {
+	width: 350px;
+	line-height: 1.5;
+	font-family: sans-serif;
+    }
+.head {
+  color: #fff;
+  padding: 12px;
+  background: red;
+}	  
+.wrapper {
+display: flex;
+}
+.block.one .child {
+  position: static;
+  
+}
+
+.block.two .child {
+  position: relative;
+}
+
+.block.three .child {
+  position: absolute;
+}
+.block {
+  width: 25%;
+  height: 150px;
+  background-color: gold;
+  position: relative;
+  font-size: 12px;
+  padding: 4px;
+}
+.block .child {
+  background-color: #222;
+  display: inline-block;
+  color: #fff;
+  top: 16px;
+  left: 16px;
+  padding: 16px;
+}
+.wrappe {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc {
+  width: 150px;
+  height: 250px;
+  background-color: blue;
+}
+
+.bloc.solid {
+  border-left: 22px solid ;
+  
+}
+.solid {
+border: 8px solid #4f4f4f;}
+
+.bloc.dotted {
+  border-left: 20px dotted ;
+}
+.dotted {
+	border: 8px solid #4f4f4f;
+}
+.bloc_mn {
+	display: inline;
+	color: red;
+}
+ .marg{
+	margin-top : 30px;
+	margin-bottom: 50px;
+	margin-right: 80px;
+	margin-left: 10px;
+ }
+
+.wrap {
+ background: yellow;
+  width: 35px;
+  height: 35px;
+  border: 1px solid green;
+  line-height: 35px;
+  font-size: .1em;
+  color: blue;
+}
+.wrap_margin {
+	margin-top : 30px;
+	margin-bottom: 50px;
+margin-right: 80px;
+	margin-left: 10px;
+}
+	
+.one {
+padding:4px ;
+background: red;
+margin:3px;
+}
+.two {
+	padding:8px ;
+	margin:10px;
+
+}
+.three {
+padding:12px ;
+background: gray;
+margin:15px;
+border: 8px solid green;
+}
+.float  {
+  padding: 16px;
+  width: 100px;
+  text-align: center;
+  font-family: monospace;
+  border: 5px solid #666;
+  background-color: red;
+}
+.left { 
+  float: left;
+}
+.right { 
+  float: right;
+  color: #999;
+  background-color: #222;
+  padding: 20px 40px;
+  display: block;
+}
+.img {
+	height: 200px;
+	width: 200px;
+	float: right;
+	padding: 20px 40px;
+}
+
+.mrg {
+	margin:50px;
+
+}
+.con {
+	float: left;
+}
+.chill {
+	color: #999;
+  background-color: white;
+  padding: 2px 4px;
+  display: block;
+}
+
+.bi li {
+	display: inline;
+	color: white;
+}
+.bi li:hover a {
+	color: red;
+}
+.clear {
+clear:both;
+}
+.glow {
+	border: 1px solid #777;
+	background: #A9E2F3;
+}
+.foot {
+	height: 50px;
+	background: #F999;
+}

@@ -1,0 +1,572 @@
+/* CSS RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*CSS 1st page*/
+
+@font-face {
+    font-family: "CenturyGothicRegular";
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
+    url("../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gabriola";
+    src: url("../fonts/gabriolaufonts.com_gabriola/ufonts.com_gabriola.eot");
+    src: url("../fonts/gabriolaufonts.com_gabriola/ufonts.com_gabriola.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/gabriolaufonts.com_gabriola/ufonts.com_gabriola.woff") format("woff"),
+    url("../fonts/gabriolaufonts.com_gabriola/ufonts.com_gabriola.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+  color: #510111;
+  font: 300 14px/21px Dali, "Times New Roman", Gabriela, "Ce" Arial, sans-serif;
+  width: 1000px;
+  height: 2000px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.header {
+  width: auto;
+  height: 130px;
+  background-image: url("../images/bg_top.jpg");
+  line-height: 9px;
+  padding-top: 2px;
+}
+
+.tel,.addres,.buy {
+  font-family: "CenturyGothicRegular";
+  font-size: 9px;
+  padding-left: 13px;
+}
+
+.arrow-icon {
+  position: absolute;
+  top:10px;
+  left: 1150px;
+}
+
+.site-name_1 {
+  font-family: Dali;
+  font-size: 33px;
+  margin: 40px 0 0 360px;
+  font-weight: bold;
+}
+
+.site-name_2 {
+  font-family: Gabriola;
+  font-size: 22px;
+  margin: -10px 0 0px 500px;
+}
+
+.buy {
+  display: block;
+  float:right;
+  margin-right:30px;
+  margin-top: 10px;
+}
+
+nav {
+  margin: 35px 140px 0 140px;
+}
+
+a {
+  font-family: "CenturyGothicRegular";
+  font-size: 9px;
+  color:#442a29;
+  text-transform: uppercase;
+  padding: 0 8px;
+  text-decoration: none;
+}
+
+.top1-1-1-pict,.top1-1-2-pict {
+  display: inline;
+  width: 500px;
+  border-top: 1px solid #510111;
+}
+
+.top1-1-1-pict {
+  float:right;
+}
+.new-prod {
+  margin-top: 30px;
+}
+.new-prod div {
+  font-family: "Times New Roman";
+  font-size: 22px;
+  font-style: italic;
+  width: 85px;
+  margin: 0 auto;
+  margin-top: -23px ;
+}
+
+.pict-block-2 img {
+  margin-top: 35px;
+}
+
+.pict-block-2 img:nth-child(1),
+.pict-block-2 img:nth-child(2) {
+  margin-right: 9px;
+}
+
+.pict-text1, .pict-text3, .pict-text5, .pict-text7, .pict-text9 {
+  font-family: "CenturyGothicRegular";
+  font-size: 11px;
+  color:#442a29;
+  text-transform: uppercase;
+  padding: 0 30px;
+}
+
+.pict-text3, .pict-text5 {
+  padding-left: 55px;
+}
+
+.pict-text2, .pict-text4, .pict-text6, .pict-text8, .pict-text10 {
+font-family: "Times New Roman";
+font-size: 12px;
+color:#442a29;
+font-style: italic;
+padding: 0 80px;
+}
+
+.pict-text4, .pict-text6 {
+padding-left: 100px;
+}
+
+.pict-block-3 img:nth-child(2) {
+  margin-left: 14px;
+}
+
+.pict-block-3 {
+  margin-top: 10px;
+}
+
+.pict-text7, .pict-text9 {
+padding-left: 120px;
+}
+
+.pict-text9 {
+padding-left: 220px;
+}
+
+.pict-text8 {
+padding-left: 140px;
+}
+
+.pict-text10 {
+padding-left: 210px;
+}
+
+.new-prod .author {
+ width: 110px;
+ margin: -16px 0 0 445px;
+}
+
+.author-foto {
+  float: right;
+  margin-top:40px;
+}
+
+footer {
+  clear: both;
+}
+
+.pict-block-4 {
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+
+.pict-block-4 div {
+  padding-top: 160px;
+  line-height: 25px;
+}
+.text-1-1 {
+  font-size: 72px;
+}
+
+.text-1-4 {
+  font-size: 24px;
+}
+
+.text-1-3 {
+  font-size: 12px;
+}
+
+.text-1-2 {
+  font-size: 18px;
+}
+
+.text-1-3-1 {
+  padding-left: 45px;
+}
+
+.text-1-3-2 {
+  padding-left: 225px;
+}
+
+.text-1-3-3 {
+  padding-left: 450px;
+}
+
+footer {
+  background-image: url("../images/bg_top.jpg");
+  margin-top: 170px;
+  padding-top: 3px;
+  border-top: 1px solid #510111;
+}
+
+.footer-info {
+  font-family: "CenturyGothicRegular";
+  font-size: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social {
+  float: right;
+  margin-top: -20px;
+}
+
+/*CSS 2nd page*/
+
+.top-pict_2-2 {
+  float: right;
+}
+
+.top-pict_2-1 {
+  font-family: "CenturyGothicRegular";
+  color: #442a29;
+  font-size: 18px;
+  text-align: center;
+  background-image: url("../images/bg_top_plate2.jpg");
+  width: 310px;
+  height: 165px;
+  line-height: 165px;
+}
+
+.view {
+  font-family: "CenturyGothicRegular";
+  color: #442a29;
+  font-size: 9px;
+  text-transform: uppercase;
+  height:15px;
+  line-height: 22px;
+  width: 100px;
+  background: url("../images/wiev-variant.jpg") right no-repeat;
+  margin-left: 325px;
+  margin-top: 20px;
+}
+
+.pages {
+  font-family: "Times New Roman";
+  font-size: 11px;
+  color: #442a29;
+  float: right;
+  margin-top: -5px;
+}
+
+.menu {
+  font-family: "CenturyGothicRegular";
+  color: #442a29;
+  font-size: 11px;
+  text-transform: uppercase;
+  height: 40px;
+  width: 310px;
+  border-bottom: 1px solid #ece5db;
+  line-height: 40px;
+  background: url("../images/arrov_down.png") right no-repeat;
+  display: block;
+}
+
+.col1-3 {
+  float: left;
+}
+
+.sub-menu1 {
+   display: none;
+}
+.main-item1:focus ~ .sub-menu1,
+.main-item1:active ~ .sub-menu1,
+.sub-menu1:hover {
+  display: block;
+}
+
+.sub-menu2 {
+   display: none;
+}
+.main-item2:focus ~ .sub-menu2,
+.main-item2:active ~ .sub-menu2,
+.sub-menu2:hover {
+  display: block;
+}
+
+.sub-menu3 {
+   display: none;
+}
+
+.main-item3:focus ~ .sub-menu3,
+.main-item3:active ~ .sub-menu3,
+.sub-menu3:hover {
+  display: block;
+}
+
+.sub-menu4 {
+   display: none;
+}
+
+.main-item4:focus ~ .sub-menu4,
+.main-item4:active ~ .sub-menu4,
+.sub-menu4:hover {
+  display: block;
+}
+
+.col2-3 {
+ width: 660px;
+ float: right;
+ margin-top: 50px;
+}
+
+.plates {
+  width: 130px;
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.name {
+  display: inline-block;
+  float: left;
+  margin: 0 50px 0 70px;
+}
+
+.price {
+  display: inline-block;
+  float: left;
+}
+
+.name {
+  font-family: "CenturyGothicRegular";
+  color: #442a29;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-right: 150px;
+  padding-bottom: 5px;
+}
+
+.price {
+  font-family: "Times New Roman";
+  font-size: 10px;
+  color: #442a29;
+  font-style: italic;
+  margin-left: 31px;
+  border-bottom: 1px solid #ece5db;
+}
+
+.cost {
+margin-left: 40px;
+}
+
+table {
+  height: 100px;
+  content: "";
+}
+
+.pages {
+  clear: both;
+}
+
+.pages-bot {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.col2-3 img {
+  padding-bottom: 25px;
+}
+
+/*CSS 3d page*/
+
+.platebuy {
+  display: inline-block;
+  margin-top: 140px;
+}
+
+.plate-col-1-3 {
+  width: 15%;
+}
+
+.plate-col-2-3 {
+  width: 55%;
+}
+
+.plate-col-3-3 {
+  width: 25%;
+}
+
+.plate1 {
+  width: 85px;
+}
+
+.plate-col-2-3 img  {
+  margin-left: 95px;
+  padding-bottom: 50px;
+}
+
+.plate-col-1-3 .plate1 {
+  margin-bottom: 50px;
+  margin-left: 55px;
+}
+
+.plate-col-3-3 span:first-child {
+ font-family: "CenturyGothicRegular";
+ color: #442a29;
+ font-size: 14px;
+ text-transform: uppercase;
+ margin-left: 85px;
+}
+
+.goldplate {
+  font-family: "Times New Roman";
+  font-size: 11px;
+  color: #442a29;
+  font-style: italic;
+  margin-left: 55px;
+}
+
+.thousand {
+  font-family: "Times New Roman";
+  font-size: 14px;
+  color: #442a29;
+  font-style: italic;
+  margin-left: 83px;
+}
+
+.buy-batton {
+  width: 220px;
+  height: 55px;
+  border-top: 1px solid #ece5db;
+  border-bottom: 1px solid #ece5db;
+}
+
+.buy-batton div {
+  width: 155px;
+  height: 40px;
+  background-color: #ece5db;
+  font-family: "CenturyGothicRegular";
+  color: #442a29;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  font-weight: 500;
+  margin-top: 7px;
+  margin-left: 35px;
+}
+
+.plate-col-3-3 p {
+  font-family: "CenturyGothicRegular";
+  color: #442a29;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+.platebuy .itemtext {
+  font-family: "Times New Roman";
+  font-size: 10px;
+  color: #442a29;
+  text-transform: none;
+  line-height: 15px;
+  padding-top: 10px;
+  width: 195px;
+}
+
+.line-throught {
+  width: 220px;
+  border-bottom: 1px solid #442a29;
+  margin-top: 15px;
+  opacity: 0.3;
+}
+
+.author1 {
+  font-family: "Times New Roman";
+  font-size: 24px;
+  font-style: italic;
+  width: 310px;
+  margin-top: -15px;
+  margin-left: 370px;
+}
+
+.interest {
+  margin-top: 280px;
+}
+
+.platerow {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: -90px;
+}
+
+.plates3 {
+  width: 130px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.left-arrow, .right-arrow {
+  width: 95px;
+  display: inline-block;
+  margin-top: 90px;
+}
+
+.right-arrow {
+  float: right;
+}
